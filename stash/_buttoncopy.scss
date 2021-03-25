@@ -1,0 +1,25 @@
+ /* Button */
+ .button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--primary-text-color);
+    background-color: var(--button-back-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    width: 200px;
+    height:50px;
+    border-radius: 4px;
+
+
+&:hover,
+&.focuse{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+   
+}
+}
