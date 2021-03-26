@@ -61,6 +61,12 @@ ul {
 
 @media screen and (min-width: 768px) {
   .logo__icon-design {
+    margin-right: 85px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__icon-design {
     margin-right: 93px;
   }
 }
@@ -80,16 +86,22 @@ ul {
   }
 }
 
-.logo__header {
-  margin-bottom: -20px;
-}
-
 .logo__icon-design--white {
   color: var(--hero-text-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.17;
   font-weight: 700;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    margin-right: -88px;
+  }
 }
 
 .container {
