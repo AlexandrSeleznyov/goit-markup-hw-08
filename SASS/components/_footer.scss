@@ -49,9 +49,11 @@
 .adress-menu__item{
     color: var(--footer-color);
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
 }
 .adress-menu__adress{
     color: var(--hero-text-color);
+    margin-bottom: 9px;
     }
     .join-menu{
         display: flex;
@@ -145,6 +147,8 @@
         border:none;
         border-radius: 4px;
         padding-left: 29px;
+        margin-bottom: 60px;
+        
     }
     
     .mailing__icon{
